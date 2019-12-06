@@ -18,6 +18,7 @@ class ComicBox extends Component {
                             src={"https://www.motherjones.com/wp-content/uploads/legacy/riff_blog/mojo-garfield-nothing.jpg"}
                             alt={"example"}
                         />
+                        look its me its alex i made a change
                     </div>
                 </div>
             </>
