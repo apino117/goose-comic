@@ -3,8 +3,8 @@ import React, { Component } from "react";
 class ComicBox extends Component {
 
     state = {
-        comic: [];
-    }
+        comic: [],
+    };
 
     render() {
         return (
@@ -15,8 +15,8 @@ class ComicBox extends Component {
                 <div className="row" id="comic-row">
                     <div className="column" id="comic-column">
                         <img className="Comic"
-                            src={this.state.user.comicUrl}
-                            alt={this.state.user.name}
+                            src={"client/src/assets/images/garfield1.jpg"}
+                            alt={"example"}
                         />
                     </div>
                 </div>
