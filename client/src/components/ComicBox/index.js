@@ -15,7 +15,7 @@ class ComicBox extends Component {
                 <div className="row" id="comic-row">
                     <div className="column" id="comic-column">
                         <img className="Comic"
-                            src={"client/src/assets/images/garfield1.jpg"}
+                            src={"https://www.motherjones.com/wp-content/uploads/legacy/riff_blog/mojo-garfield-nothing.jpg"}
                             alt={"example"}
                         />
                     </div>
