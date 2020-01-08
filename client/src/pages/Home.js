@@ -1,13 +1,19 @@
 import React, { Component } from "react";
-import Container from "../components/ComicBox"
+import ComicBox from "../components/ComicBox"
+import Jumbotron from "../components/Jumbotron";
 
 class Home extends Component {
 
     render() {
         return (
             <>
-                <p>Welcome to the home page!</p>
-                <Container></Container>
+                <Jumbotron>
+                    <h1 className="text-center">
+                        <strong>Sheriff Goose</strong>
+                    </h1>
+                    <h2 className="text-center">This town goose goose for goose goose of us</h2>
+                </Jumbotron>
+                <ComicBox></ComicBox>
             </>
         );
     }
