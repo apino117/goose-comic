@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Col, Row, Container } from "../Grid";
 
 const Card = ({ title, src, alt }) => {
   return (
@@ -12,16 +13,18 @@ const Card = ({ title, src, alt }) => {
         </h3>
       </div>
       <div className="card-body">
-        <div className="container" id="comic-box-container">
-          <div className="row" id="comic-row">
-            <div className="column" id="comic-column">
-              <img className="Comic"
+
+        <Container fluid>
+          <Row>
+            <Col size="lg">
+              <img className="card-img-top"
                 src={src}
                 alt={alt}
               />
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Container>
+
       </div>
     </div>
   );
