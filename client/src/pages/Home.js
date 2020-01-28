@@ -15,7 +15,7 @@ class Home extends Component {
                     <h2 className="text-center">This town goose goose for goose goose of us</h2>
                 </Jumbotron>
                 {/* <ComicBox></ComicBox> */}
-                <Card title="Comic">
+                <Card title="Today's Comic">
                     <div className="container" id="comic-box-container">
                         <div className="row" id="comic-row">
                             <div className="column" id="comic-column">

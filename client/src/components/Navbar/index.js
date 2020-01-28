@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './style.css';
 
-function Navbar() {
+const Navbar = () => {
     return (
         <>
             <nav className="navbar navbar-light bg-light">
@@ -13,4 +13,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navbar;
