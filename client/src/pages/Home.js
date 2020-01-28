@@ -15,17 +15,10 @@ class Home extends Component {
                     <h2 className="text-center">This town goose goose for goose goose of us</h2>
                 </Jumbotron>
                 {/* <ComicBox></ComicBox> */}
-                <Card title="Today's Comic">
-                    <div className="container" id="comic-box-container">
-                        <div className="row" id="comic-row">
-                            <div className="column" id="comic-column">
-                                <img className="Comic"
-                                    src={"https://www.motherjones.com/wp-content/uploads/legacy/riff_blog/mojo-garfield-nothing.jpg"}
-                                    alt={"example"}
-                                />
-                            </div>
-                        </div>
-                    </div>
+                <Card
+                    title="Today's Comic"
+                    src={"https://www.motherjones.com/wp-content/uploads/legacy/riff_blog/mojo-garfield-nothing.jpg"}
+                    alt={"example"}>
                 </Card>
             </>
         );
