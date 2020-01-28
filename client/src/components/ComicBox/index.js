@@ -12,7 +12,7 @@ class ComicBox extends Component {
                 <div className="container" id="comic-box-container">
                     <div className="row" id="button-row">
                         First Previous Next Last
-            </div>
+                    </div>
                     <div className="row" id="comic-row">
                         <div className="column" id="comic-column">
                             <img className="Comic"

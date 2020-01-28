@@ -6,9 +6,9 @@ function Navbar() {
     return (
         <>
             <nav className="navbar navbar-light bg-light">
-                <Link className="navbar-brand" to="/home">Comics!</Link>
+                <Link className="navbar-brand" to="/home">Home</Link>
+                <Link className="navbar-brand" to="/comics">Archive</Link>
             </nav>
-            <Link className="nav-link" to="/comics">~comics~</Link>
         </>
     )
 }
