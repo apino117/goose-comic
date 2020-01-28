@@ -16,7 +16,7 @@ class Home extends Component {
                 </Jumbotron>
                 {/* <ComicBox></ComicBox> */}
                 <Card
-                    title="Today's Comic"
+                    title={"Today's Comic"}
                     src={"https://www.motherjones.com/wp-content/uploads/legacy/riff_blog/mojo-garfield-nothing.jpg"}
                     alt={"example"}>
                 </Card>

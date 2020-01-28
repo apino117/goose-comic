@@ -3,6 +3,7 @@ import "./style.css";
 import { Col, Row, Container } from "../Grid";
 
 const Card = ({ title, src, alt }) => {
+
   return (
     <div className="card mt-4">
       <div className="card-header">
@@ -24,7 +25,6 @@ const Card = ({ title, src, alt }) => {
             </Col>
           </Row>
         </Container>
-
       </div>
     </div>
   );
