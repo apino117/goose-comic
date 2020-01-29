@@ -1,29 +1,31 @@
-# Create React Express App
+# Sheriff Goose
 
-## About This Boilerplate
+Welcome to the Goose Caboose, your number one place to be for migratory fowl being law enforcement!
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## Getting Started
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+This is just a site for you to look at comics, getting started is as easy as npm run start. 
 
-## Starting the app locally
+* [React](https://reactjs.org/) - Front-End UI Components
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+## Contributing
 
-```
-npm install
-```
+Please read [CONTRIBUTING.md](https://github.com/standard/standard/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-This should install node modules within the server and the client folder.
+## Versioning
 
-After both installations complete, run the following command in your terminal:
+We use [SemVer](http://semver.org/) for versioning. 
 
-```
-npm start
-```
+## Authors
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+* **Alex Pino** - *Creator, Backend Construction, Code Architecture* - (https://github.com/apino117)
 
-## Deployment (Heroku)
+See also the list of [contributors](https://github.com/apino117/goose-comic/graphs/contributors) who participated in this project.
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+## License
+
+This project is licensed under the ISC License - see the [LICENSE.md](https://opensource.org/licenses/ISC) file for details
+
+## Acknowledgments
+
+* Nothing but props due to the main crew behind the destruction - you know who you are
