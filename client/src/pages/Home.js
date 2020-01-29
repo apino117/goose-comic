@@ -1,13 +1,25 @@
 import React, { Component } from "react";
-import Container from "../components/ComicBox"
+// import ComicBox from "../components/ComicBox"
+import Card from "../components/Card"
+import Jumbotron from "../components/Jumbotron";
 
 class Home extends Component {
 
     render() {
         return (
             <>
-                <p>Welcome to the home page!</p>
-                <Container></Container>
+                <Jumbotron>
+                    <h1 className="text-center">
+                        <strong>Sheriff Goose</strong>
+                    </h1>
+                    <h2 className="text-center">This town goose goose for goose goose of us</h2>
+                </Jumbotron>
+                {/* <ComicBox></ComicBox> */}
+                <Card
+                    title={"Today's Comic"}
+                    src={"https://www.motherjones.com/wp-content/uploads/legacy/riff_blog/mojo-garfield-nothing.jpg"}
+                    alt={"example"}>
+                </Card>
             </>
         );
     }
