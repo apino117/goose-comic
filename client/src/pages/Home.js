@@ -15,7 +15,7 @@ class Home extends Component {
 
     // load comics function - hits comic api and loads sets state 
 
-    
+
 
 
     render() {
@@ -29,8 +29,9 @@ class Home extends Component {
                 </Jumbotron>
                 {/* <ComicBox></ComicBox> */}
                 <Card
-                    title={"Today's Comic"}
-                    src={"https://github.com/apino117/goose-comic/blob/alexbranch/client/src/assets/images/golden goose 18.png"}
+                    title={"Fortune Favors the Bird: "}
+                    date={"01/29/2020"}
+                    src={"https://github.com/apino117/goose-comic/blob/master/client/src/assets/images/golden%20goose%2018.png?raw=true"}
                     alt={"example"}>
                 </Card>
             </>

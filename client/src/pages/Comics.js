@@ -15,8 +15,9 @@ class Comics extends Component {
                 </Jumbotron>
                 {/* <ComicBox></ComicBox> */}
                 <Card
-                    title="Title of Comic: Date"
-                    src={"https://static01.nyt.com/images/2008/06/02/business/02garfield.600.jpg?quality=75&auto=webp&disable=upscale"}
+                    title={"Golden Goose: "}
+                    date={"Some Time Ago"}
+                    src={"https://github.com/apino117/goose-comic/blob/master/client/src/assets/images/golden%20goose%201.png?raw=true"}
                     alt={"example"}>
                 </Card>
             </>
