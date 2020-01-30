@@ -5,6 +5,19 @@ import Jumbotron from "../components/Jumbotron";
 
 class Home extends Component {
 
+    state = {
+        comics: [],
+        title: "",
+        date: ""
+    };
+
+    // Component did mount - load comics
+
+    // load comics function - hits comic api and loads sets state 
+
+    
+
+
     render() {
         return (
             <>
@@ -17,7 +30,7 @@ class Home extends Component {
                 {/* <ComicBox></ComicBox> */}
                 <Card
                     title={"Today's Comic"}
-                    src={"https://www.motherjones.com/wp-content/uploads/legacy/riff_blog/mojo-garfield-nothing.jpg"}
+                    src={"https://github.com/apino117/goose-comic/blob/alexbranch/client/src/assets/images/golden goose 18.png"}
                     alt={"example"}>
                 </Card>
             </>
