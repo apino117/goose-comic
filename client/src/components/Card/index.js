@@ -2,14 +2,14 @@ import React from "react";
 import "./style.css";
 import { Col, Row, Container } from "../Grid";
 
-const Card = ({ title, src, alt }) => {
+const Card = ({ title, date, src, alt }) => {
 
   return (
     <div className="card mt-4">
       <div className="card-header">
         <h3>
           <strong>
-            {title}
+            {title}{date}
           </strong>
         </h3>
       </div>
