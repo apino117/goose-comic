@@ -15,7 +15,7 @@ class Home extends Component {
 
     // load comics function - hits comic api and loads sets state 
 
-    
+
 
 
     render() {
@@ -30,7 +30,7 @@ class Home extends Component {
                 {/* <ComicBox></ComicBox> */}
                 <Card
                     title={"Today's Comic"}
-                    src={"https://github.com/apino117/goose-comic/blob/alexbranch/client/src/assets/images/golden goose 18.png"}
+                    src={"https://github.com/apino117/goose-comic/blob/2dcb41b524af4944a2d0d18ac95c2fa7c01607a4/client/src/assets/images/golden goose 18.png"}
                     alt={"example"}>
                 </Card>
             </>
